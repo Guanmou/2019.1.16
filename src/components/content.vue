@@ -1,6 +1,7 @@
 <template>
     <div>
         <h1>今日头条</h1>
+        <p>作者：聂风</p>
         <ul>
             <li v-for="(li,index) in data" :key="index">
                 <template v-if="li.image.length==1">
